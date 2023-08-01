@@ -510,7 +510,7 @@ class VisualOdometry():
 
 
 def main():
-    data_dir = 'KITTI_sequence_1'  # Try KITTI_sequence_2 os.path.join("kitti", '07') #
+    data_dir = '/home/swarmmaster/Optical_flow/VisualSLAM/KITTI_sequence_1'  # Try KITTI_sequence_2 os.path.join("kitti", '07') #
     vo = VisualOdometry(data_dir)
     print ("lenght of gt poses: " + str(len(vo.gt_poses)))
     g = graph()
